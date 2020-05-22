@@ -1,0 +1,26 @@
+
+
+  <ul class="menu">
+
+    <li><a routerLink="/home"  data-tab="1">
+      <fa-icon class="icon" [icon]="['fas', 'user']"></fa-icon>
+      <span class="menu-text">Perfil</span></a>
+    </li>
+
+    <li><a routerLink="/formacao" routerLinkActive="active" data-tab="2" (click)="ngOnInit()">
+      <fa-icon class="icon" [icon]="['fas', 'user-graduate']"></fa-icon>
+      <span class="menu-text">Formação</span></a>
+   </li>
+
+    <li><a routerLink="#" data-tab="3">
+      <fa-icon class="icon" [icon]="['fas', 'user-tie']"></fa-icon>
+      <span class="menu-text">Experiência</span></a>
+    </li>
+
+    <li><a routerLink="#" data-tab="4">
+      <fa-icon class="icon" [icon]="['fas', 'user-plus']"></fa-icon>
+      <span class="menu-text">Skills</span></a>
+    </li>
+
+  </ul>
+

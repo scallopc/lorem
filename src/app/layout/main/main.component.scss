@@ -1,0 +1,25 @@
+
+.wrap {
+
+    max-width: 760px;
+    min-height: 600px;
+    margin: auto;
+    position: relative;
+    background: #111010;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+  
+  .active .icon {
+  bottom: 10px;
+}
+
+.active > a {
+  color: #fff;
+  text-decoration: none;
+}
+.active > a:after {
+  height: 100%;
+}
